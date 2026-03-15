@@ -14,8 +14,7 @@ My personal GlazeWM configuration. It uses AutoHotKey to rebind your super key t
 
 ## What is not included
 
-- PowerToys configuration
-- Old `komorebi` files
+- PowerToys configuration (alt + space to launch your app launcher, highly recommend. You have to install this yourself)
 - Other Windows personalization settings
 
 ## Current compatibility
@@ -52,6 +51,30 @@ C:\Users\<USER>\caps-to-alt.ahk
 6. Start or restart GlazeWM.
 7. Configure PowerToys manually if you want launcher shortcuts that match this machine.
 
-## Expected result
+## Keybinds
 
-After copying the config and restarting GlazeWM, the new machine should match this machine's GlazeWM-managed desktop behavior as closely as GlazeWM allows, including the top bar, workspaces, keybindings, and cursor-follow behavior. Copying the helper scripts reproduces the current `Caps Lock`-as-super workflow and GlazeWM restart shortcut as well.
+  Keybinds
+
+  - CapsLock + H/J/K/L or CapsLock + Arrow keys: focus left/down/up/right
+  - Alt + CapsLock + H/J/K/L or Alt + CapsLock + Arrow keys: move window left/down/up/right
+  - CapsLock + U/P/O/I: resize width - / + and height + / -
+  - CapsLock + R: enter resize mode
+  - In resize mode: H/J/K/L or arrows resize, Enter or Esc exits resize mode
+  - CapsLock + V: toggle tiling direction
+  - CapsLock + Space: cycle focus
+  - Alt + CapsLock + Space: toggle floating
+  - CapsLock + X: toggle fullscreen/maximized
+  - CapsLock + M: minimize window
+  - Alt + CapsLock + Q: close window
+  - Alt + CapsLock + E: exit GlazeWM
+  - Alt + CapsLock + G: reload GlazeWM config
+  - Alt + CapsLock + R: restart GlazeWM
+  - CapsLock + Enter: open cmd
+  - CapsLock + Y: focus recent workspace
+  - CapsLock + T: next workspace
+  - Alt + CapsLock + T: previous workspace
+  - CapsLock + WheelDown: next workspace
+  - CapsLock + WheelUp: previous workspace
+  - CapsLock + 1..9: focus workspace 1..9
+  - Alt + CapsLock + 1..9: move focused window to workspace 1..9 and follow it
+  - CapsLock + A/F/D/S: move current workspace left/right/up/down
