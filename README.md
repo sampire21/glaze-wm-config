@@ -1,6 +1,6 @@
 # GlazeWM Config
 
-This repo stores the live GlazeWM configuration from my Windows machine so I can recreate the same desktop layout and behavior on another computer.
+My personal GlazeWM configuration. It uses AutoHotKey to rebind your super key to caps lock (be aware that caps lock functionality will be disabled on your system). 
 
 ## What is included
 
