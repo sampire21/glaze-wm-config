@@ -1,0 +1,133 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.41/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+  "bar_configurations": [
+    "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.json",
+    "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.monitor2.json"
+  ],
+  "layered_applications": [
+    { "kind": "Exe", "id": "claude.exe", "matching_strategy": "Equals" }
+  ],
+  "tray_and_multi_window_applications": [
+    { "kind": "Exe", "id": "claude.exe", "matching_strategy": "Equals" }
+  ],
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "cross_boundary_behaviour": "Monitor",
+  "default_workspace_padding": 14,
+  "default_container_padding": 2,
+  "mouse_follows_focus": true,
+  "resize_delta": 50,
+  "floating_window_aspect_ratio": "Widescreen",
+  "stackbar": {
+    "mode": "Never"
+  },
+  "animation": {
+    "enabled": true,
+    "duration": 80,
+    "fps": 60,
+    "style": "EaseOutCubic"
+  },
+  "border": true,
+  "border_implementation": "Komorebi",
+  "border_width": 3,
+  "border_offset": -1,
+  "border_style": "Rounded",
+  "theme": {
+    "palette": "Custom",
+    "colours": {
+      "base_00": "#2C001E",
+      "base_01": "#3D0F2F",
+      "base_02": "#5E2750",
+      "base_03": "#77216F",
+      "base_04": "#AEA79F",
+      "base_05": "#F7F7F7",
+      "base_06": "#FFFFFF",
+      "base_07": "#FFFFFF",
+      "base_08": "#C7162B",
+      "base_09": "#E95420",
+      "base_0a": "#F99B11",
+      "base_0b": "#0E8420",
+      "base_0c": "#19B6EE",
+      "base_0d": "#2A7BDE",
+      "base_0e": "#B04AA6",
+      "base_0f": "#772953"
+    },
+    "single_border": "Base09",
+    "stack_border": "Base0B",
+    "monocle_border": "Base0E",
+    "floating_border": "Base0C",
+    "unfocused_border": "Base02",
+    "bar_accent": "Base09"
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "web",
+          "layout": "BSP"
+        },
+        {
+          "name": "code",
+          "layout": "BSP"
+        },
+        {
+          "name": "term",
+          "layout": "BSP"
+        },
+        {
+          "name": "chat",
+          "layout": "BSP"
+        },
+        {
+          "name": "files",
+          "layout": "BSP"
+        },
+        {
+          "name": "media",
+          "layout": "BSP"
+        },
+        {
+          "name": "docs",
+          "layout": "BSP"
+        },
+        {
+          "name": "games",
+          "layout": "BSP"
+        },
+        {
+          "name": "misc",
+          "layout": "BSP"
+        },
+        {
+          "name": "scratch",
+          "layout": "BSP"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "side 1",
+          "layout": "BSP"
+        },
+        {
+          "name": "side 2",
+          "layout": "BSP"
+        },
+        {
+          "name": "side 3",
+          "layout": "BSP"
+        },
+        {
+          "name": "side 4",
+          "layout": "BSP"
+        },
+        {
+          "name": "side 5",
+          "layout": "BSP"
+        }
+      ]
+    }
+  ]
+}

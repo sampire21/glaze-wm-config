@@ -1,0 +1,95 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.41/schema.bar.json",
+  "monitor": 0,
+  "font_family": "Ubuntu",
+  "theme": {
+    "palette": "Custom",
+    "colours": {
+      "base_00": "#2C001E",
+      "base_01": "#3D0F2F",
+      "base_02": "#5E2750",
+      "base_03": "#77216F",
+      "base_04": "#AEA79F",
+      "base_05": "#F7F7F7",
+      "base_06": "#FFFFFF",
+      "base_07": "#FFFFFF",
+      "base_08": "#C7162B",
+      "base_09": "#E95420",
+      "base_0a": "#F99B11",
+      "base_0b": "#0E8420",
+      "base_0c": "#19B6EE",
+      "base_0d": "#2A7BDE",
+      "base_0e": "#B04AA6",
+      "base_0f": "#772953"
+    },
+    "accent": "Base09"
+  },
+  "left_widgets": [
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": true
+        },
+        "layout": {
+          "enable": true
+        },
+        "focused_window": {
+          "enable": true,
+          "show_icon": true
+        }
+      }
+    }
+  ],
+  "right_widgets": [
+    {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
+      "Media": {
+        "enable": false
+      }
+    },
+    {
+      "Storage": {
+        "enable": false
+      }
+    },
+    {
+      "Cpu": {
+        "enable": true
+      }
+    },
+    {
+      "Memory": {
+        "enable": true
+      }
+    },
+    {
+      "Network": {
+        "enable": true,
+        "show_activity": true,
+        "show_total_activity": false
+      }
+    },
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour"
+      }
+    },
+    {
+      "Battery": {
+        "enable": true
+      }
+    }
+  ]
+}
